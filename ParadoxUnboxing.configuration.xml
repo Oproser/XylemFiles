@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ConnectionString>server=66.23.201.74;user=u528_rGqRxXlhMJ;database=s528_XylemsData;port=3306;password=qep2w.4V9GCr.Y3@Nps.tr5J</ConnectionString>
+  <RefreshCacheSeconds>15</RefreshCacheSeconds>
+  <CratesTableName>Crates</CratesTableName>
+  <KeysTableName>Keys</KeysTableName>
+  <DataTableName>UnboxingData</DataTableName>
+  <UseExp>false</UseExp>
+  <UseUconomy>true</UseUconomy>
+  <EnableDebugLogs>false</EnableDebugLogs>
+  <SortPreviewByRarity>false</SortPreviewByRarity>
+  <EconomyPrefix>$</EconomyPrefix>
+  <EconomySuffix />
+  <Crates>
+    <Crate>
+      <CrateID>1</CrateID>
+      <CrateName>AR's</CrateName>
+      <Icon />
+      <IsBuyable>true</IsBuyable>
+      <Cost>30000</Cost>
+      <KeyID>1</KeyID>
+      <CrateItems>
+        <CrateItem>
+          <Name>AK-47N Golden Assault</Name>
+          <Icon />
+          <Chance>3</Chance>
+          <BroadcastWin>false</BroadcastWin>
+          <RewardItems>
+            <ItemID>36390</ItemID>
+          </RewardItems>
+          <RewardCommands />
+          <RewardGroup />
+          <RewardMoney>0</RewardMoney>
+          <RewardCrateID>0</RewardCrateID>
+          <RewardCrateAmount>0</RewardCrateAmount>
+          <RewardKeyID>0</RewardKeyID>
+          <RewardKeyAmount>0</RewardKeyAmount>
+        </CrateItem>
+        <CrateItem>
+          <Name>XM8R Yoimiya</Name>
+          <Icon />
+          <Chance>1</Chance>
+          <BroadcastWin>false</BroadcastWin>
+          <RewardItems>
+            <ItemID>37052</ItemID>
+          </RewardItems>
+          <RewardCommands />
+          <RewardGroup />
+          <RewardMoney>0</RewardMoney>
+          <RewardCrateID>0</RewardCrateID>
+          <RewardCrateAmount>0</RewardCrateAmount>
+          <RewardKeyID>0</RewardKeyID>
+          <RewardKeyAmount>0</RewardKeyAmount>
+        </CrateItem>
+      </CrateItems>
+    </Crate>
+    <Crate>
+      <CrateID>2</CrateID>
+      <CrateName>Test2</CrateName>
+      <Icon />
+      <IsBuyable>true</IsBuyable>
+      <Cost>100</Cost>
+      <KeyID>2</KeyID>
+      <CrateItems>
+        <CrateItem>
+          <Name>Test Item 3</Name>
+          <Icon />
+          <Chance>50</Chance>
+          <BroadcastWin>false</BroadcastWin>
+          <RewardItems>
+            <ItemID>3</ItemID>
+            <ItemID>4</ItemID>
+          </RewardItems>
+          <RewardCommands />
+          <RewardGroup />
+          <RewardMoney>0</RewardMoney>
+          <RewardCrateID>2</RewardCrateID>
+          <RewardCrateAmount>1</RewardCrateAmount>
+          <RewardKeyID>2</RewardKeyID>
+          <RewardKeyAmount>1</RewardKeyAmount>
+        </CrateItem>
+        <CrateItem>
+          <Name>Test Item 2</Name>
+          <Icon />
+          <Chance>20</Chance>
+          <BroadcastWin>false</BroadcastWin>
+          <RewardItems>
+            <ItemID>5</ItemID>
+            <ItemID>6</ItemID>
+          </RewardItems>
+          <RewardCommands />
+          <RewardGroup />
+          <RewardMoney>0</RewardMoney>
+          <RewardCrateID>2</RewardCrateID>
+          <RewardCrateAmount>1</RewardCrateAmount>
+          <RewardKeyID>2</RewardKeyID>
+          <RewardKeyAmount>1</RewardKeyAmount>
+        </CrateItem>
+      </CrateItems>
+    </Crate>
+  </Crates>
+  <CrateKeys>
+    <CrateKey>
+      <KeyID>1</KeyID>
+      <KeyName>Test Key</KeyName>
+      <Icon />
+      <IsBuyable>true</IsBuyable>
+      <Cost>50</Cost>
+    </CrateKey>
+    <CrateKey>
+      <KeyID>2</KeyID>
+      <KeyName>Test Key 2</KeyName>
+      <Icon />
+      <IsBuyable>true</IsBuyable>
+      <Cost>50</Cost>
+    </CrateKey>
+  </CrateKeys>
+  <CrateItems>
+    <ItemCrate>
+      <ItemID>2</ItemID>
+      <CrateID>1</CrateID>
+    </ItemCrate>
+    <ItemCrate>
+      <ItemID>3</ItemID>
+      <CrateID>2</CrateID>
+    </ItemCrate>
+  </CrateItems>
+  <KeyItems>
+    <ItemKey>
+      <ItemID>9</ItemID>
+      <KeyID>1</KeyID>
+    </ItemKey>
+    <ItemKey>
+      <ItemID>10</ItemID>
+      <KeyID>2</KeyID>
+    </ItemKey>
+  </KeyItems>
+</Config>
